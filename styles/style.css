@@ -1,34 +1,44 @@
 html {
-  background-color: #8c1e80; 
+  background-color: #81cdc6; 
   font-family: "Open Sans", sans-serif;
 }
 
 body {
   width: 950px;
   margin: 0 auto;
-  background-color: #C3B1E1; 
+  background-color: #421869; 
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  border: 5px solid #000000;
 }
 
 h1 {
   margin: 0;
   padding: 15px 0;
-  color: #000080;
+  color: #DDC5DD;
   text-align: center;
   font-size: 60px;
+}
+
+h2, h3 {
+  color: #FFD6F6;   
 }
 
 img {
   display: block;
   margin: 0 auto;
   width: 350px;
-  border: 5px solid black;
+  border: 5px solid #DDC5DD;
 }
 
 p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
+  color: #FFD6F6;
+}
+
+a{
+  color: #DDC5DD; 
+  font-size: 18px;
 }
 
