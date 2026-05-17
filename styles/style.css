@@ -1,12 +1,12 @@
 html {
-  background-color: #81cdc6; 
+  background-color: #81cdc6;
   font-family: "Open Sans", sans-serif;
 }
 
 body {
   width: 950px;
   margin: 0 auto;
-  background-color: #421869; 
+  background-color: #421869;
   padding: 0 20px 20px 20px;
   border: 5px solid #000000;
 }
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2, h3 {
-  color: #FFD6F6;   
+  color: #FFD6F6;
 }
 
 img {
@@ -37,8 +37,43 @@ p, li {
   color: #FFD6F6;
 }
 
-a{
-  color: #DDC5DD; 
+a {
+  color: #DDC5DD;
   font-size: 18px;
 }
+
+/* Wanted to add a 3D box to help the information pop more for the viewers
+Comes up in a form of a banner! */
+.box-3d {
+  background-color: #5b2d87;
+  padding: 10px;
+  border: 2px solid #DDC5DD;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 15px;
+  background-color: #2d1047;
+  margin-top: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFD6F6;
+}
+
+/* Keyboard Focus */
+a:focus,
+button:focus {
+  outline: 4px solid #81cdc6;
+  background-color: #5b2d87;
+  padding: 4px;
+}
+
 
