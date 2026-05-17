@@ -60,6 +60,7 @@ Comes up in a form of a banner! */
   padding: 15px;
   background-color: #2d1047;
   margin-top: 20px;
+  margin: 0;
 }
 
 .navbar a {
@@ -75,5 +76,3 @@ button:focus {
   background-color: #5b2d87;
   padding: 4px;
 }
-
-
